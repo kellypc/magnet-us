@@ -1,0 +1,32 @@
+/* 
+========================================================================
+GRIDS
+======================================================================== 
+*/
+
+.grid{
+  .grid__item{
+    &.grid__item--intro{
+      .caption{
+        margin-bottom: 40px;
+        display: inline-block;
+      }
+      p{
+        padding-right: 30px;
+        font-size: 0.8125rem;
+        line-height: 2;
+      }
+    }
+  }
+  &.accordion{
+    .card{
+      .card__inner{
+        .collapse:not(.show){
+          @include bp-medium {
+            display: block !important;
+          }
+        }
+      }
+    }
+  }
+}

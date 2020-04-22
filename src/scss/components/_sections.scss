@@ -1,0 +1,126 @@
+/*
+========================================================================
+SECTIONS
+========================================================================
+*/
+
+section{
+  padding: 68px 15px;
+  margin: 0 -15px;
+  @include bp-large {
+    padding: 214px 0;
+  }
+}
+
+.intro{
+  color: $color-white;
+  background-image: url("../img/background2.jpg");
+  background-color: $color-blue;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 190px 15px 68px 15px;
+  min-height: 560px;
+  @include bp-medium {
+    min-height: 919px;
+  }
+  .intro__heading{
+    padding-right: 20px;
+    @include bp-medium {
+      padding-right: 40px;
+    }
+    @include bp-large {
+      padding-right: 85px;
+    }
+  }
+  .intro__text{
+    margin-top: 25px;
+    padding-top: 0;
+    @include bp-medium {
+      padding-top: 314px;
+    }
+    @include bp-large {
+      padding-top: 353px;
+    }
+  }
+}
+
+.products{
+  background-color: $color-white;
+  color: $color-black;
+  position: relative;
+  padding: 0;
+  min-height: auto;
+  max-height: 1047px;
+  .container-fluid{
+    padding: 0;
+    .grid{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 4;
+      color: $color-white;
+      width: 100%;
+      padding: 53px 30px;
+      @include bp-large {
+        padding: 180px 0;
+      }
+      @include bp-medium {
+        color: $color-black;
+        padding-left: 112px;
+      }
+    }
+  }
+}
+
+.clients{
+  background-color: $color-yellow;
+  color: $color-black;
+}
+
+.services{
+  color: $color-yellow;
+  min-height: auto;
+  background-image: url("../img/bg-services.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.technologies{
+  background-color: $color-white;
+  color: $color-black;
+  min-height: 280px;
+  @include bp-large {
+    padding: 120px 0;
+  }
+  @include bp-xlarge {
+    min-height: 380px;
+  }
+}
+
+.process{
+  background-color: $color-white;
+  color: $color-blue;
+  background-position: left top;
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: auto;
+  border-top: 1px solid $color-blue;
+}
+
+.open-source{
+  background-color: $color-black;
+  color: $color-white;
+  a {
+    color: $color-pink;
+  }
+}
+
+.team{
+  padding: 0;
+  display: none;
+  @include bp-medium {
+    display: block;
+  }
+}

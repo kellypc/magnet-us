@@ -1,0 +1,31 @@
+/*
+  Project: Magnet Us
+  Author: Kelly Cruz
+*/
+
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// TOOLS
+@import 'tools/_breakpoints.scss';
+
+// GENERIC
+@import 'generic/_reset.scss';
+
+// SETTINGS
+@import 'settings/_global.scss';
+
+// ELEMENTS
+@import 'elements/_heading.scss';
+@import 'elements/_html.scss';
+@import 'elements/_links.scss';
+
+// COMPONENTS
+@import 'components/_sections.scss';
+@import 'components/_menu.scss';
+@import 'components/_btn.scss';
+@import 'components/_grid.scss';
+@import 'components/_cards.scss';
+@import 'components/_accordion.scss';
+@import 'components/_carousel.scss';
+@import 'components/_footer.scss';

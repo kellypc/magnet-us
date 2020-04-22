@@ -1,0 +1,47 @@
+/* 
+========================================================================
+HEADINGS
+======================================================================== 
+*/
+
+h1 {
+  font-size: 1.6875rem; /* 27px */
+  font-family: $font-display;
+  padding: 0px 0;
+  line-height: 1.4;
+  letter-spacing: .2rem;
+  font-weight: 100;
+  @include bp-small {
+    font-size: 2.5rem; /* 40px */
+  }
+  @include bp-medium {
+    font-size: 3.8rem;
+    line-height: 1;
+    letter-spacing: .4rem;
+  }
+  @include bp-large {
+    font-size: 5rem; /* 80px */
+  }
+  @include bp-xlarge {
+    font-size: 5rem; /* 80px */
+  }
+}
+
+h2 {
+  font-size: 1.6875rem;
+  font-family: $font-display;
+  padding: 0px 0;
+  font-weight: 100;
+  margin-bottom: 25px;
+  @include bp-xlarge {
+    font-size: 3.5625rem;  
+  }
+}
+
+h3 {
+  font-size: 1rem;
+  font-family: $font-body;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0px 0;
+}

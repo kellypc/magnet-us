@@ -1,0 +1,74 @@
+/* 
+========================================================================
+BUTTONS
+======================================================================== 
+*/
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.875rem; /* 14px */
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  padding: 1.16rem 2rem;
+  transition: $global-transition;
+  border-radius: 30px;
+  font-weight: 800;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.btn--primary {
+  background-color: $color-link;
+  color: $color-white;
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: $color-white;
+  }
+  &:hover,
+  &:focus {
+    background-color: $color-hover;
+  }
+}
+
+.btn--lightblue {
+  background-color: $color-lightblue;
+  color: $color-white;
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: $color-white;
+  }
+  &:hover,
+  &:focus {
+    background-color: $color-hover;
+  }
+}
+
+.btn--small {
+  padding: 0.5rem 2rem;
+}
+
+.btn--link {
+  padding: 0;
+  background-color: transparent;
+  color: $color-link;
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: $color-link;
+  }
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: $color-hover;
+  }
+}

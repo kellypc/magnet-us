@@ -1,0 +1,40 @@
+/*
+========================================================================
+FOOTER
+========================================================================
+*/
+
+footer{
+  min-height: 519px;
+  padding: 68px 15px;
+  margin: 0 -15px;
+  background-color: $color-white;
+  color: $color-blue;
+  @include bp-large {
+    padding: 124px 0;
+  }
+  .footer-menu{
+    .nav-item{
+      padding-bottom: 7px;
+      &.nav-item--logo{
+        padding-bottom: 76px;
+        img{
+          width: 100px;
+        }
+      }
+    }
+    .nav-item--divisor{
+      display: block;
+      height: 30px;
+    }
+  }
+  .social-menu{
+    float: right;
+    .nav-item{
+      float: none;
+      @include bp-medium {
+        float: left;
+      }
+    }
+  }
+}

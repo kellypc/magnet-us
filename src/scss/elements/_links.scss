@@ -1,0 +1,16 @@
+/* 
+========================================================================
+HEADINGS
+======================================================================== 
+*/
+
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: $global-transition;
+  &:hover {
+    color: $color-hover;
+    transition: $global-transition;
+    text-decoration: none;
+  }
+}

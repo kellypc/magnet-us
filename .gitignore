@@ -1,0 +1,9 @@
+*.log
+node_modules/
+bower_components/
+logs/
+
+/.htaccess
+/.git
+
+.DS_Store

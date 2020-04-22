@@ -1,0 +1,32 @@
+/* 
+========================================================================
+GLOBAL
+======================================================================== 
+*/
+
+// COLORS
+$color-white: #F4F2F7;
+$color-black: #303030;
+$color-blue: #503BFF;
+$color-green: #09C297;
+$color-fuxia: #F88FFE;
+$color-pink: #ECD5E3;
+$color-yellow: #FFFFD2;
+$color-lightblue: #5B97FF;
+
+$color-bg: $color-white;
+$color-text: $color-black;
+
+$color-link: $color-blue;
+$color-hover: $color-fuxia;
+
+$font-display: 'Niramit', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+$font-size: 16px;
+
+$bp-small: 576px;
+$bp-medium: 768px;
+$bp-large: 992px;
+$bp-xlarge: 1280px;
+
+$global-transition: all 300ms ease-in-out !default;

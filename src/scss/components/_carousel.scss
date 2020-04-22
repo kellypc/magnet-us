@@ -1,0 +1,96 @@
+/* 
+========================================================================
+CAROUSEL
+======================================================================== 
+*/
+.technologies-carousel{
+  width: 100vw;
+  overflow: hidden;
+  margin: 0 -50px;
+  // @include bp-medium {
+  //   margin: 0 -15px;
+  // }
+  .carousel-cell {
+    width: 100%;
+    padding: 0 80px;
+    text-align: center;
+    @include bp-small {
+      width: 50%
+    }
+    @include bp-medium {
+      width: auto;
+    }
+  }
+}
+.products{
+  .carousel__buttons{
+    .button{
+      border-color: transparent;
+      background-color: transparent;
+      color: $color-white;
+      height: 45px;
+      width: 45px;
+      @include bp-medium {
+        color: $color-black;
+      }
+    }
+  }
+}
+.products-carousel{
+  position: relative;
+  overflow: hidden;
+  .carousel-cell{
+    padding: 0;
+    margin: 0;
+    .products__text{
+      position: absolute;
+      z-index: 3;
+      color: $color-white;
+      bottom: 70px;
+      left: 0px;
+      width: 100vw;
+      padding: 0 30px;
+      p{
+        padding-bottom: 50px;
+      }
+      @include bp-medium {
+        position: relative;
+        color: $color-black;
+        padding: 73vh 112px 0 112px;
+      }
+      @include bp-large {
+        padding: 73vh 200px 0 112px;
+      }
+      @include bp-xlarge {
+        padding: 73vh 300px 0 112px;
+      }
+    }
+    .products__veil{
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color-black, .4);
+      padding: 0;
+      left: 0;
+      display: block;
+      @include bp-medium {
+        display: none;
+      }
+    }
+    .products__photo{
+      background-color: $color-blue;
+      padding: 0;
+      overflow: hidden;
+      img{
+        width: 100vw;
+      }
+      @include bp-medium {
+        position: relative;
+        img{
+          width: auto;
+        }
+      }
+    }
+  }
+}
